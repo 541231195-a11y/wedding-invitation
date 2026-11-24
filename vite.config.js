@@ -3,6 +3,8 @@ import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
+    // Tambahkan baris base ini agar asset terbaca dengan benar di GitHub Pages
+    base: './', 
     plugins: [
         laravel({
             input: [
